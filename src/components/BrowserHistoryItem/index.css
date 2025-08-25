@@ -1,0 +1,49 @@
+.list-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+.items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin: 10px;
+}
+.time {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+
+  margin: 10px;
+}
+.domain-logo {
+  height: 49px;
+  width: 49px;
+  align-self: center;
+}
+.title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+
+  margin: 10px;
+}
+.domainUrl {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+
+  margin: 10px;
+}
+.min-headers {
+  display: flex;
+  flex-direction: row;
+}
+.delete {
+  height: 19px;
+  width: 19px;
+  align-self: center;
+}
