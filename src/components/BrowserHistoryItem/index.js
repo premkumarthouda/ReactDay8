@@ -25,7 +25,7 @@ class BrowserHistoryItem extends Component {
           </div>
         </div>
         <div>
-          <button className="btn" onClick={onDelete}>
+          <button className="btn" onClick={onDelete} data-testid="delete">
             <img
               src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
               alt="delete"
