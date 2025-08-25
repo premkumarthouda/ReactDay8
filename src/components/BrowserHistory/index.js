@@ -119,7 +119,7 @@ class BrowserHistory extends Component {
             />
           </div>
         </div>
-        {searchInput == "" || HistoryList.size == 0?
+        {searchInput == "" || HistoryList.length == 0?
         <p>There is no history to show</p>
         :
         <div>
